@@ -1,0 +1,140 @@
+.wrap{
+
+   margin: 0 auto;
+   position: relative;
+
+}
+
+.moon{
+
+    background-image: url(./layout/bg-head-sky.png);
+    width: 1280px;
+    height: 300px;
+
+    margin: 0 auto;
+
+}
+
+.cloud{
+
+    background-image: url(./layout/bg-head-cloud.png);
+    z-index: 2;
+    width: 1280px;
+    height: 185px;
+    position: absolute;
+    top:45px;
+    left:35px;
+
+}
+
+.bg-mountain{
+
+    background-image: url(./layout/bg-head-mountain-back.png);
+    z-index: 1;
+    
+    width: 1280px;
+    height: 176px;
+
+    position: absolute;
+    top:125px;
+    left:35px;
+
+}
+
+.front-mounain{
+
+    background-image: url(./layout/bg-head-mountain-front.png);
+    width: 1280px;
+    height: 20px;
+    z-index: 2;
+
+    position: absolute;
+    top:280px;
+    left:35px;
+
+
+}
+
+.road{
+
+    background-image: url(./layout/bg-main.png);
+    width: 1280px;
+    height: 400px;
+
+    position: absolute;
+    top:290px;
+    left:35px;
+
+    z-index: -3;
+
+}
+
+.start{
+
+    background-image: url(./layout/img-main-startingLine-7.png);
+    width: 180px;
+    height: 390px;
+
+    position: absolute;
+    top:300px;
+    left:100px;
+
+    z-index: -2;
+
+}
+
+.rock-1{
+
+    background-image: url(./layout/Group-244.png);
+    width: 330px;
+    height: 235px;
+
+    position: absolute;
+    top:190px;
+    right:300px;
+
+    z-index: 2;
+
+}
+
+.rock-2{
+
+    background-image: url(./layout/Group-244.png);
+    width: 330px;
+    height: 235px;
+
+    position: absolute;
+    top:390px;
+    right:500px;
+
+    z-index: 2;
+}
+
+.little-man{
+
+    background-image: url(./layout/Group-362.png);
+    width: 80px;
+    height: 120px;
+
+    
+    position: absolute;
+    top:450px;
+    left:100px;
+
+    z-index: 2;
+
+}
+
+.footer{
+
+    background-image: url(./layout/bg-footer.png);
+    width: 1280px;
+    height: 175px;
+
+    position: absolute;
+    top:580px;
+    left:35px;
+
+    z-index: 2;
+
+}
